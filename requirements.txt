@@ -1,0 +1,7 @@
+gunicorn
+flask
+Frozen-Flask
+flask-bootstrap
+boto3
+awscli
+arrow
