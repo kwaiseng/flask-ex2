@@ -28,4 +28,4 @@ def files():
     return render_template('files.html', my_bucket=my_bucket, files=summaries)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=8080)
